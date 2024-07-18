@@ -287,6 +287,34 @@ select {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.sec-6{
+    max-width: 1060px;
+    margin: 0 auto;
+    gap: 100px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.sec-6-img{
+    width: 100%;
+    border-radius: 150px 15px
+}
+
+.sec-6-title {
+    color: rgb(230, 83, 60);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sec-6-des {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.list-item{
+        color: white;
+        font-weight: 500;
+}
+
 /* footer styles */
 footer {
     max-width: 1440px;
