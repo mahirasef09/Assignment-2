@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 body {
     font-family: "Inter", sans-serif;
@@ -62,6 +63,10 @@ nav ul li a {
 
 .banner {
     gap: 160px;
+}
+
+.miama {
+    font-family: 'Miama', sans-serif;
 }
 
 .banner-title {
@@ -280,4 +285,55 @@ select {
 
 .sec-5-des {
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* footer styles */
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.footer-sec{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 100px;
+}
+
+.footer-part-1 {
+    width: 440px;
+}
+
+.footer-part-1 {
+    width: 180px;
+}
+
+.footer-title {
+    color: rgb(230, 83, 60);
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+}
+
+.footer-subtitle-1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.footer-subtitle-2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4rem;
+}
+
+.footer-subtitle-3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    text-align: center;
 }
