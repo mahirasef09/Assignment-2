@@ -2,6 +2,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: rgb(0, 0, 0);
 }
 
 /* shared styles */
@@ -10,10 +11,6 @@ body {
 }
 
 /* header, nav and banner styles */
-header {
-    background-color: rgb(0, 0, 0);
-}
-
 nav ul {
     list-style: none;
 }
@@ -127,7 +124,6 @@ nav ul li a {
 
 .btn-des {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -141,4 +137,147 @@ nav ul li a {
     font-family: Inter;
     font-size: 1.8rem;
     font-weight: 900;
+}
+
+/* section 1 styles */
+.sec-1 {
+    max-width: 1044px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec-1-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.sec-1-des {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 60px;
+}
+
+.sec-1-imgs {
+    border-radius: 100%;
+}
+
+.sec-1-subtitle {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.sec-2 {
+    background-color: rgb(34, 34, 34);
+    border-radius: 18px;
+    max-width: 1060px;
+    margin: 100px auto;
+    align-items: center;
+    gap: 150px;
+    padding: 30px;
+}
+
+.sec-2-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sec-2-des {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sec-2-img {
+    border-radius: 18px;
+}
+
+.sec-3 {
+    max-width: 670px;
+    margin: 0 auto;
+}
+
+.sec-3-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sec-3-des {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 80px;
+}
+
+.sec-4 {
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 150px;
+    background-color: rgb(34, 34, 34);
+}
+
+.sec-4-part-1 {
+    max-width: 310px;
+}
+
+.sec-4-part-2 {
+    max-width: 580px;
+}
+
+.sec-4-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.sec-4-des {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input,
+select {
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+.sec-5 {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.sec-5-part-1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.sec-5-part-2 {
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sec-5-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.sec-5-imgs {
+    width: 325px;
+    height: 270px;
+    border-radius: 18px;
+}
+
+.sec-5-subtitle {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.sec-5-des {
+    color: rgba(255, 255, 255, 0.5);
 }
