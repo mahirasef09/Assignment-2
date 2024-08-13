@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar display-flex">
             <h3 class="nav-title">Fitness</h3>
-            <ul class="list-items display-flex">
+            <ul class="list-items">
                 <li><button class="nav-btn">Home</button></li>
                 <li><a class="nav-link" href="">Service</a></li>
                 <li><a class="nav-link" href="">Contact</a></li>
@@ -22,13 +23,14 @@
         <div class="banner display-flex">
             <div class="banner-content-1">
                 <h1 class="banner-title">Get body in <br><span class="miama">shape</span> & stay <br>healthy</h1>
-                <p class="banner-description">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <p class="banner-description">A huge selection of health and fitness content, healthy recipes and
+                    transformation stories to help you get fit and stay fit!</p>
                 <button class="btn-1">Join Club Now!</button>
                 <button class="btn-2">Download App</button>
             </div>
             <div class="banner-content-2">
                 <img class="banner-img" src="images/Images2.png" alt="">
-                <button class="btn-3">350+<br><span class="btn-des">Video tutorial</span></button>
+                <button class="btn-3"><i class="fa fa-play-circle" aria-hidden="true"></i> 350+<br><span class="btn-des">Video tutorial</span></button>
                 <button class="btn-4">500+<br><span class="btn-des">Free Workout Videos</span></button>
             </div>
         </div>
@@ -37,9 +39,10 @@
     <main>
         <section class="sec-1">
             <h2 class="sec-1-title">Change Your Habits</h2>
-            <p class="sec-1-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p class="sec-1-des">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                or access to a gym.</p>
 
-            <div class="display-flex">
+            <div class="sec-1-container">
                 <div>
                     <img class="sec-1-imgs" src="images/image3.png" alt="">
                     <p class="sec-1-subtitle">Movement</p>
@@ -66,7 +69,8 @@
         <section class="sec-2 display-flex">
             <div>
                 <h2 class="sec-2-title">Run an Extra <br>Mile Easily</h2>
-                <p class="sec-2-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="sec-2-des">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
                 <button class="btn-1">Join Now</button>
             </div>
             <div>
@@ -76,16 +80,44 @@
 
         <section class="sec-3">
             <h2 class="sec-3-title">BMI Calculator</h2>
-            <p class="sec-3-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p class="sec-3-des">We believe fitness should be accessible to everyone, everywhere, regardless of income
+                or access to a gym.</p>
         </section>
 
         <section class="sec-4 display-flex">
             <div class="sec-4-part-1">
                 <h4 class="sec-4-title">BMI Calculator Chart</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="sec-4-part-2">
                 <h4 class="sec-4-title">Calculate your BMI</h4>
-                <p class="sec-4-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                <p class="sec-4-des">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. </p>
                 <form action="">
                     <input type="text" name="" id="" placeholder="Height/cm">
                     <input type="text" name="" id="" placeholder="Weight/kg">
@@ -96,49 +128,62 @@
                         <option value="">Female</option>
                         <option value="">Others</option>
                     </select>
-                    <select name="" id="">
+                    <select class="special-select" name="" id="">
                         <option value="">Select an activity factor</option>
                     </select>
                 </form>
-                <button class="btn-1">Calculate</button>
+                <button class="btn-sec-4">Calculate</button>
             </div>
         </section>
 
         <section class="sec-5">
             <div class="sec-5-part-1">
                 <h2 class="sec-5-title">Meet Our Team</h2>
-                <p class="sec-5-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="sec-5-des">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym.</p>
             </div>
             <div class="sec-5-part-2">
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer1.png" alt="">
-                    <p class="sec-5-subtitle">Jerome Bell</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Jerome Bell</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer2.png" alt="">
-                    <p class="sec-5-subtitle">Cameron Williamson</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Cameron Williamson</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer3.png" alt="">
-                    <p class="sec-5-subtitle">Darrell Steward</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Darrell Steward</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer4.png" alt="">
-                    <p class="sec-5-subtitle">Dianne Russell</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Dianne Russell</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer5.png" alt="">
-                    <p class="sec-5-subtitle">Cody Fisher</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Cody Fisher</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
-                <div>
+                <div class="Trainer-container">
                     <img class="sec-5-imgs" src="images/trainer6.png" alt="">
-                    <p class="sec-5-subtitle">Theresa Webb</p>
-                    <p class="sec-5-des">Trainer</p>
+                    <div class="Trainer-name">
+                        <p class="sec-5-subtitle">Theresa Webb</p>
+                        <p class="sec-5-des">Trainer</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -165,7 +210,8 @@
         <div class="footer-sec">
             <div class="footer-part-1">
                 <h1 class="footer-title">Fitness</h1>
-                <p class="footer-des">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="footer-des">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <div class="footer-part-2">
                 <h3 class="footer-subtitle-1">Get Started</h3>
