@@ -66,6 +66,13 @@ nav ul li a {
     font-size: 1.1rem;
 }
 
+.div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
 .banner {
     gap: 160px;
 }
@@ -161,6 +168,10 @@ nav ul li a {
     font-family: "Inter", sans-serif;
     font-size: 1.8rem;
     font-weight: 900;
+}
+
+.color {
+    color: red;
 }
 
 /* section 1 styles */
@@ -458,11 +469,20 @@ footer {
 /* responsive styles */
 @media screen and (max-width: 576px) {
 
-    .banner, .sec-1-container, .sec-2, .sec-4, .sec-6 {
+    .list-items {
+        display: none;
+    }
+
+    .banner,
+    .sec-1-container,
+    .sec-2,
+    .sec-4,
+    .sec-6 {
         flex-direction: column;
     }
 
-    .sec-5-part-2, .footer-sec {
+    .sec-5-part-2,
+    .footer-sec {
         grid-template-columns: repeat(1, 1fr);
     }
 
