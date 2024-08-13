@@ -384,7 +384,7 @@ select {
 
 .sec-6-img {
     width: 100%;
-    border-radius: 150px 15px
+    border-radius: 150px 15px;
 }
 
 .sec-6-title {
@@ -462,8 +462,12 @@ footer {
         flex-direction: column;
     }
 
-    .sec-5-part-2 {
+    .sec-5-part-2, .footer-sec {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sec-6-img {
+        border-radius: 18px;
     }
 
 }
