@@ -66,7 +66,7 @@ nav ul li a {
     font-size: 1.1rem;
 }
 
-.display{
+.display {
     display: none;
 }
 
@@ -478,7 +478,7 @@ footer {
         display: none;
     }
 
-    .display{
+    .display {
         display: inline-block;
     }
 
@@ -513,17 +513,21 @@ footer {
     .btn-4 {
         position: absolute;
         margin-top: 50px;
-        margin-left: -160px;
+        margin-left: -168px;
+        width: 170px;
+        height: 95px;
+        font-size: 1.5rem;
     }
 
     .sec-2-img {
         width: 100%;
         border-radius: 18px;
         object-fit: none;
-        object-position: 69% 29%;
+        object-position: 68% 28%;
     }
 
-    .sec-3, .sec-4-part-2 {
+    .sec-3,
+    .sec-4-part-2 {
         padding-left: 20px;
     }
 
