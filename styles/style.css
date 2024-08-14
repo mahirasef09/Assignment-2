@@ -97,8 +97,8 @@ nav ul li a {
 }
 
 .btn-1 {
-    max-width: 224px;
-    max-height: 54px;
+    width: 224px;
+    height: 54px;
     border: none;
     border-radius: 42px;
     background-color: rgb(230, 83, 60);
@@ -111,8 +111,8 @@ nav ul li a {
 }
 
 .btn-2 {
-    max-width: 224px;
-    max-height: 54px;
+    width: 224px;
+    height: 54px;
     border: 1px solid white;
     border-radius: 42px;
     background-color: rgb(0, 0, 0);
@@ -495,15 +495,32 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .banner-content-2 {
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .btn-2 {
+        margin-top: 10px;
+    }
+
+    .btn-3 {
+        position: absolute;
+        margin-top: 220px;
+        margin-left: -340px;
+    }
+
+    .btn-4 {
+        position: absolute;
+        margin-top: 50px;
+        margin-left: -160px;
+    }
+
     .sec-2-img {
         width: 100%;
         border-radius: 18px;
         object-fit: none;
-        object-position: 69% 33%;
-    }
-
-    .banner-content-2 {
-        margin: 0 auto;
+        object-position: 69% 29%;
     }
 
     .sec-3, .sec-4-part-2 {
