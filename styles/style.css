@@ -539,4 +539,11 @@ footer {
         border-radius: 18px;
     }
 
+    select {
+        width: 35.5%;
+    }
+    
+    .special-select {
+        width: 71.5%;
+    }
 }
